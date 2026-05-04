@@ -1,0 +1,21 @@
+{
+  "name": "steam-server",
+  "version": "1.0.0",
+  "description": "A Node script that can fetch and cache Steam data, Steam API Wrapper",
+  "license": "MIT",
+  "author": "Farnexol_",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.16.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.4.1",
+    "helmet": "^8.1.0",
+    "node-html-parser": "^7.1.0",
+    "steam-user": "^5.3.0"
+  }
+}
